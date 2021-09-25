@@ -14,7 +14,6 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-
         <Grid Background="#494949">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
@@ -22,32 +21,109 @@
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
 
-            <Label Grid.Row="0"
+            <Grid Grid.Row="0">
+                <Label
                    Content="Items" 
                    FontSize="30"
                    Foreground="White"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center">
 
-            </Label>
-            
-            <StackPanel Grid.Row="1">
+                </Label>
 
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <ListView Background="Transparent">
+
+
+                </ListView>
+            </Grid>
+
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+
+                <Button Height="24" 
+                        Width="102" 
+                        Content="Create" 
+                        Background="Black"  
+                        Foreground="White"
+                        Margin="0, 0, 30, 0">
+
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button Height="24" 
+                        Width="102" 
+                        Content="Read" 
+                        Background="Black"  
+                        Foreground="White">
+
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
             </StackPanel>
-
         </Grid>
 
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
-                <RowDefinition/>
+                <RowDefinition Height="50"/>
                 <RowDefinition/>
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="2" 
-                        Background="#494949"
+            <Label Grid.Row="0"
+                   Content="Select item name"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="30">
+
+            </Label>
+
+            <Image Grid.Row="1" 
+                   Source="/TestImage.jpg">
+
+            </Image>
+
+            <StackPanel Grid.Row="2"
+                        HorizontalAlignment="Center"
                         Orientation="Horizontal">
-                
+
+                <Button Height="24" 
+                        Width="102" 
+                        Content="Update" 
+                        Background="Black"  
+                        Foreground="White"
+                        Margin="0, 0, 30, 0">
+
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button Height="24" 
+                        Width="102" 
+                        Content="Delete" 
+                        Background="Black"  
+                        Foreground="White">
+
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="5"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
             </StackPanel>
         </Grid>
     </Grid>
