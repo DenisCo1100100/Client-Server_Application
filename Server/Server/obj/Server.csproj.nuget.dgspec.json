@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\konts\\Desktop\\Denis TestTask\\TestTask\\Client-Server_Application\\Server\\Server\\Server.csproj": {}
+    "D:\\TestTask\\Server\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\konts\\Desktop\\Denis TestTask\\TestTask\\Client-Server_Application\\Server\\Server\\Server.csproj": {
+    "D:\\TestTask\\Server\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\konts\\Desktop\\Denis TestTask\\TestTask\\Client-Server_Application\\Server\\Server\\Server.csproj",
+        "projectUniqueName": "D:\\TestTask\\Server\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\konts\\Desktop\\Denis TestTask\\TestTask\\Client-Server_Application\\Server\\Server\\Server.csproj",
-        "packagesPath": "C:\\Users\\konts\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\konts\\Desktop\\Denis TestTask\\TestTask\\Client-Server_Application\\Server\\Server\\obj\\",
+        "projectPath": "D:\\TestTask\\Server\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\kozik\\.nuget\\packages\\",
+        "outputPath": "D:\\TestTask\\Server\\Server\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\konts\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\kozik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,12 +49,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.19, 3.1.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

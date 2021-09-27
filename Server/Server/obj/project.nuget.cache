@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b/SDzTkPTHZrQBICNJGo2f7WrRPq0dfvpyzoU9ByTyeCAix1aoQZLOyviJVgmYqI16KAR/y2y/og5X7y/vdziA==",
+  "dgSpecHash": "rvrGsoHisdwY4jaBjFfh6do0X4jogra/66BIejpDDEEjxccpQYCJtOCzPRJT1e/yp38yfuY2C0jDFg5S0WRVrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\konts\\Desktop\\Denis TestTask\\TestTask\\Client-Server_Application\\Server\\Server\\Server.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\konts\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.19\\microsoft.netcore.app.host.win-x64.3.1.19.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\TestTask\\Server\\Server\\Server.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
